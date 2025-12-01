@@ -1,4 +1,4 @@
-package com.campus.democourier_new.common;
+package com.example.courierpro.common;
 
 import lombok.Data;
 
@@ -15,7 +15,6 @@ public class Result<T> {
         r.data = data;
         return r;
     }
-
     public static <T> Result<T> error(String msg) {
         Result<T> r = new Result<>();
         r.code = 500;

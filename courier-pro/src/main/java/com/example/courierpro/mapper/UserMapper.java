@@ -1,7 +1,7 @@
-package com.campus.democourier_new.mapper;
+package com.example.courierpro.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.campus.democourier_new.entity.User;
+import com.example.courierpro.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

@@ -3,15 +3,15 @@ server:
 
 spring:
   application:
-    name: courier-new
+    name: courier-pro
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    # ?? ?? campus_courier ??????????
+    # ??????? campus_courier
     url: jdbc:mysql://localhost:3306/campus_courier?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
     username: root
-    # ??? ??? DBeaver ??????????
-    password: "123456"
+    password: "123456" #
 
+# ?? SQL ??
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

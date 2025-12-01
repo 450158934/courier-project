@@ -1,11 +1,10 @@
-package com.campus.democourier_new.entity;
+package com.example.courierpro.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 @Data
 @TableName("sys_user")
@@ -17,5 +16,4 @@ public class User {
     private String nickname;
     private String role;
     private BigDecimal balance;
-    private LocalDateTime createTime;
 }

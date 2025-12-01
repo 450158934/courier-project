@@ -1,13 +1,13 @@
-package com.campus.democourier_new;
+package com.example.courierpro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemocourierNewApplicationTests {
+class CourierProApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
